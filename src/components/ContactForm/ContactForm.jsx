@@ -1,7 +1,7 @@
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { useDispatch } from 'react-redux';
-import { addContact } from '../../redux/contactsSlice';
+import { addContact } from '../../redux/contactsOps';
 import styles from './ContactForm.module.css';
 import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
